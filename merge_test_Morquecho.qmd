@@ -9,7 +9,7 @@ import numpy as np
 # Create a test 10x3 dataframe
 df = pd.DataFrame({
     "A": np.arange(1, 11),
-    "B": np.random.randint(10, 100, size=10),
+    "numbers": np.random.randint(10, 100, size=10),
     "C": np.random.choice(["w", "x", "y", "z"], size=10)
 })
 
